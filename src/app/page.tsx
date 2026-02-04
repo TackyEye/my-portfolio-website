@@ -11,7 +11,10 @@ export default function Home() {
             Hi, I'm <span className="text-blue-600 dark:text-blue-400">Rishav</span>
           </h1>
           <p className="text-xl text-slate-600 dark:text-slate-300 max-w-2xl">
-            Full-stack developer passionate about building modern web applications with React, Node.js, and cloud technologies. Specializing in creating high-performance, scalable solutions.
+            Data Engineer with 2.5 years of experience in building cloud-based, data-centric applications using Python, AWS 
+(Lambda, Glue, S3, CDK), and automation frameworks. Passionate about applying machine learning fundamentals to 
+develop intelligent, scalable solutions. Strong in data structures, backend development, Big Data and cloud 
+infrastructure, with a keen interest on AI-driven platform development and data integrity.
           </p>
           
           {/* CTA Buttons */}
