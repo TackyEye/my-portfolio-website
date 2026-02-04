@@ -19,7 +19,7 @@ export default function Header() {
       <nav className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="text-xl font-bold text-blue-600 dark:text-blue-400">
-          TackyEye
+          Rishav
         </Link>
 
         {/* Desktop Navigation */}

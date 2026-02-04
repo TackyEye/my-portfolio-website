@@ -8,7 +8,7 @@ export default function Home() {
         {/* Hero Section */}
         <section className="text-center md:text-left space-y-4">
           <h1 className="text-5xl sm:text-6xl font-bold tracking-tight">
-            Hi, I'm <span className="text-blue-600 dark:text-blue-400">TackyEye</span>
+            Hi, I'm <span className="text-blue-600 dark:text-blue-400">Rishav</span>
           </h1>
           <p className="text-xl text-slate-600 dark:text-slate-300 max-w-2xl">
             Full-stack developer passionate about building modern web applications with React, Node.js, and cloud technologies. Specializing in creating high-performance, scalable solutions.
@@ -55,11 +55,11 @@ export default function Home() {
               "React",
               "Next.js",
               "TypeScript",
-              "Node.js",
-              "PostgreSQL",
-              "Tailwind CSS",
+              "PySpark",
+              "Azure Devops",
+              "Git",
               "AWS",
-              "Docker",
+              "Python CDK",
             ].map((skill) => (
               <span
                 key={skill}

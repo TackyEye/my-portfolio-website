@@ -15,11 +15,11 @@ export default function Footer() {
               Interested in working together? Let's connect!
             </p>
             <a
-              href="mailto:contact@tackyeye.dev"
+              href="mailto:observantmagic@outlook.com"
               className="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:underline"
             >
               <Mail size={18} />
-              contact@tackyeye.dev
+              observantmagic@outlook.com
             </a>
           </div>
 
@@ -82,7 +82,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-slate-200 dark:border-slate-800 pt-8 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-slate-600 dark:text-slate-400 text-sm">
-            © {currentYear} TackyEye. All rights reserved.
+            © {currentYear} Rishav. All rights reserved.
           </p>
           <p className="text-slate-600 dark:text-slate-400 text-sm mt-4 sm:mt-0">
             Built with Next.js, React, and Tailwind CSS

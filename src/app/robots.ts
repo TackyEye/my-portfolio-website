@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/"],
     },
-    sitemap: "https://tackyeye.dev/sitemap.xml",
+    sitemap: "https://rishav.dev/sitemap.xml",
   };
 }

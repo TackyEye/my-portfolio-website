@@ -15,10 +15,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio | TackyEye",
+  title: "Portfolio | Rishav",
   description: "Full-stack developer showcasing projects, skills, and experience",
   openGraph: {
-    title: "Portfolio | TackyEye",
+    title: "Portfolio | Rishav",
     description: "Full-stack developer showcasing projects, skills, and experience",
     type: "website",
   },

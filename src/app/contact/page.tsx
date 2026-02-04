@@ -25,14 +25,25 @@ export default function Contact() {
     setLoading(true);
 
     try {
-      // Simulate API call - replace with your actual API endpoint
-      await new Promise((resolve) => setTimeout(resolve, 1000));
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to send email");
+      }
+
       console.log("Form submitted:", formData);
       setSubmitted(true);
       setFormData({ name: "", email: "", subject: "", message: "" });
       setTimeout(() => setSubmitted(false), 5000);
     } catch (error) {
       console.error("Error submitting form:", error);
+      alert("Failed to send message. Please try again.");
     } finally {
       setLoading(false);
     }
@@ -55,19 +66,19 @@ export default function Contact() {
             {
               icon: Mail,
               label: "Email",
-              value: "contact@tackyeye.dev",
-              href: "mailto:contact@tackyeye.dev",
+              value: "observantmagic@outlook.com",
+              href: "mailto:observantmagic@outlook.com",
             },
             {
               icon: Phone,
               label: "Phone",
-              value: "+1 (555) 123-4567",
+              value: "+91 9987117796",
               href: "tel:+15551234567",
             },
             {
               icon: MapPin,
               label: "Location",
-              value: "San Francisco, CA",
+              value: "Pune, Maharashtra, India",
               href: null,
             },
           ].map(({ icon: Icon, label, value, href }) => (
@@ -97,15 +108,19 @@ export default function Contact() {
           <div className="pt-4 border-t border-slate-200 dark:border-slate-800">
             <p className="font-semibold mb-4">Connect on Social</p>
             <div className="flex gap-4">
-              {["GitHub", "LinkedIn", "Twitter"].map((platform) => (
+              {[
+                { name: "GitHub", url: "https://github.com/TackyEye" },
+                { name: "LinkedIn", url: "https://www.linkedin.com/in/rishav-bhattacharya-b3aa12198/" },
+                { name: "HackerRank", url: "https://www.hackerrank.com/profile/observantmagic1" },
+              ].map(({ name, url }) => (
                 <a
-                  key={platform}
-                  href={`https://${platform.toLowerCase()}.com`}
+                  key={name}
+                  href={url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                 >
-                  {platform}
+                  {name}
                 </a>
               ))}
             </div>

@@ -1,10 +1,10 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About | TackyEye",
+  title: "About | Rishav",
   description: "Learn about my background, experience, and skills",
   openGraph: {
-    title: "About | TackyEye",
+    title: "About | Rishav",
     description: "Learn about my background, experience, and skills",
     type: "website",
   },
@@ -24,7 +24,7 @@ export default function About() {
       <div className="mb-12">
         <h1 className="text-4xl sm:text-5xl font-bold mb-4">About Me</h1>
         <p className="text-xl text-slate-600 dark:text-slate-300">
-          Full-stack developer with 5+ years of experience building web applications at scale
+          Data Engineer with 2.5 years of experience in designing, developing, and maintaining data pipelines and ETL processes.
         </p>
       </div>
 
