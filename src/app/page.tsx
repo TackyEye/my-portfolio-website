@@ -41,7 +41,7 @@ infrastructure, with a keen interest on AI-driven platform development and data 
             <div className="text-sm text-slate-600 dark:text-slate-400">Projects Completed</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-blue-600 dark:text-blue-400">5+</div>
+            <div className="text-3xl font-bold text-blue-600 dark:text-blue-400">2+</div>
             <div className="text-sm text-slate-600 dark:text-slate-400">Years Experience</div>
           </div>
           <div className="text-center">
