@@ -70,22 +70,22 @@ export default function About() {
         <div className="space-y-8">
           {[
             {
-              role: "Senior Full-Stack Developer",
-              company: "Tech Company Inc.",
-              period: "2023 - Present",
-              description: "Lead development of customer-facing web applications. Mentor junior developers and conduct code reviews.",
+              role: "Data Engineer",
+              company: "Principal Global Services",
+              period: "October 2024 - Present",
+              description: "Built and maintained multiple production applications using AWS and Python. Implemented CI/CD pipelines.",
             },
             {
-              role: "Full-Stack Developer",
-              company: "Digital Solutions Ltd.",
-              period: "2021 - 2023",
-              description: "Built and maintained multiple production applications using React and Node.js. Implemented CI/CD pipelines.",
+              role: "Trainee Engineer",
+              company: "Principal Global Services",
+              period: "July 2023 - September 2024",
+              description: "Developed and maintained data pipelines and ETL processes. Mentor junior developers and conduct code reviews.",
             },
             {
-              role: "Junior Developer",
-              company: "StartUp Labs",
-              period: "2020 - 2021",
-              description: "Developed frontend components and participated in code reviews. Learned best practices in web development.",
+              role: "Intern",
+              company: "Principal Global Services",
+              period: "January 2023 - June 2023",
+              description: "Developed frontend components and data processes and participated in code reviews. Learned best practices in data engineering.",
             },
           ].map((job, idx) => (
             <div key={idx} className="border-l-2 border-blue-600 dark:border-blue-400 pl-6">
