@@ -49,7 +49,7 @@ export default function Footer() {
             <h3 className="font-semibold text-lg">Follow Me</h3>
             <div className="flex gap-4">
               <a
-                href="https://github.com"
+                href="https://github.com/TackyEye"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
@@ -58,7 +58,7 @@ export default function Footer() {
                 <Github size={24} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/rishav-bhattacharya-b3aa12198/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
@@ -67,11 +67,11 @@ export default function Footer() {
                 <Linkedin size={24} />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://www.hackerrank.com/profile/observantmagic1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                aria-label="Twitter"
+                aria-label="HackerRank"
               >
                 <ExternalLink size={24} />
               </a>
