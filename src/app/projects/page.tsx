@@ -14,12 +14,12 @@ export const metadata: Metadata = {
 export default function Projects() {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Weather DashBoard",
       description:
-        "Full-stack e-commerce solution built with Next.js and Node.js. Features include product catalog, shopping cart, payment integration with Stripe, and admin dashboard.",
-      tags: ["Next.js", "React", "Node.js", "PostgreSQL", "Stripe", "Tailwind CSS"],
-      demoUrl: "https://example.com/ecommerce",
-      githubUrl: "https://github.com/rishav/ecommerce",
+        "Interactive weather dashboard displaying real-time weather data, location search, hourly forecasts, and automatic updates every 5 minutes.",
+      tags: ["Python", "Flask", "JavaScript", "HTML5", "CSS3", "Vercel"],
+      demoUrl: "https://weather-dashboard-japan.vercel.app/",
+      githubUrl: "https://github.com/TackyEye/weather-dashboard-japan/",
     },
     {
       title: "Project Management App",
