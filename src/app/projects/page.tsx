@@ -53,14 +53,6 @@ export default function Projects() {
       demoUrl: "https://example.com/social",
       githubUrl: "https://github.com/rishav/social-feed",
     },
-    {
-      title: "Weather Application",
-      description:
-        "Progressive web app for weather forecasting. Features real-time weather data, location search, and offline functionality with service workers.",
-      tags: ["React", "PWA", "OpenWeather API", "Tailwind CSS", "TypeScript"],
-      demoUrl: "https://example.com/weather",
-      githubUrl: "https://github.com/rishav/weather-app",
-    },
   ];
 
   return (
