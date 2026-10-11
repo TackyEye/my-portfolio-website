@@ -12,8 +12,8 @@ export const metadata: Metadata = {
 
 export default function About() {
   const skills = {
-    "Frontend": ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML/CSS"],
-    "Backend": ["Node.js", "Express", "PostgreSQL", "MongoDB", "REST APIs"],
+    "Data Engineering": ["Python", "PySpark", "ETL", "Data Pipelines", "Data Integrity"],
+    "Cloud Data Services": ["AWS Glue", "AWS Lambda", "Amazon S3", "AWS CDK"],
     "DevOps & Tools": ["Docker", "AWS", "Git", "CI/CD", "Linux"],
     "Other": ["Problem Solving", "Agile", "Team Collaboration", "Technical Writing"],
   };
@@ -24,7 +24,7 @@ export default function About() {
       <div className="mb-12">
         <h1 className="text-4xl sm:text-5xl font-bold mb-4">About Me</h1>
         <p className="text-xl text-slate-600 dark:text-slate-300">
-          Data Engineer with 2.5 years of experience in designing, developing, and maintaining data pipelines and ETL processes.
+          Data Engineer with 3.5 years of experience in designing, developing, and maintaining data pipelines and ETL processes.
         </p>
       </div>
 
@@ -33,13 +33,13 @@ export default function About() {
         <h2 className="text-2xl font-bold mb-6">My Story</h2>
         <div className="space-y-4 text-slate-700 dark:text-slate-300">
           <p>
-            I started my journey in web development with a passion for solving complex problems and creating intuitive user experiences. Over the past 5 years, I've worked with startups and established companies to build scalable web applications that make a real impact.
+            I moved into data engineering because I enjoy solving practical problems and building systems that make data more useful. Over the past 3.5 years, I've worked on data pipelines and cloud-based applications, with a focus on reliable, maintainable solutions.
           </p>
           <p>
-            My expertise spans the full stack—from building responsive frontends with React to designing robust backends with Node.js. I'm committed to writing clean, maintainable code and staying current with emerging technologies.
+            I work primarily with Python and AWS services such as Lambda, Glue, and S3, along with automation frameworks. I’m also interested in machine learning fundamentals and AI-driven platforms, especially the engineering that helps keep data dependable.
           </p>
           <p>
-            When I'm not coding, I enjoy contributing to open-source projects, writing technical articles, and mentoring junior developers. I believe in continuous learning and sharing knowledge with the community.
+            I enjoy making complex data workflows easier to understand and operate, whether that means improving a pipeline or automating a repetitive process. I’m always looking to learn new ways to build scalable systems and maintain data integrity.
           </p>
         </div>
       </section>

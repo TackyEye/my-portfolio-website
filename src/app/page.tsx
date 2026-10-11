@@ -64,14 +64,14 @@ infrastructure, with a keen interest on AI-driven platform development and data 
           <h2 className="text-2xl font-bold">Tech Stack</h2>
           <div className="flex flex-wrap gap-2">
             {[
-              "React",
-              "Next.js",
-              "TypeScript",
+              "Python",
               "PySpark",
-              "Azure Devops",
+              "AWS Glue",
+              "AWS Lambda",
+              "Amazon S3",
+              "AWS CDK",
+              "ETL",
               "Git",
-              "AWS",
-              "Python CDK",
             ].map((skill) => (
               <span
                 key={skill}
