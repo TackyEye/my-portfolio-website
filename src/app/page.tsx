@@ -34,19 +34,28 @@ infrastructure, with a keen interest on AI-driven platform development and data 
           </div>
         </section>
 
-        {/* Quick Stats */}
-        <section className="grid grid-cols-3 gap-4 py-8 border-y border-slate-200 dark:border-slate-800">
-          <div className="text-center">
-            <div className="text-3xl font-bold text-blue-600 dark:text-blue-400">15+</div>
-            <div className="text-sm text-slate-600 dark:text-slate-400">Projects Completed</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold text-blue-600 dark:text-blue-400">2+</div>
-            <div className="text-sm text-slate-600 dark:text-slate-400">Years Experience</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold text-blue-600 dark:text-blue-400">100%</div>
-            <div className="text-sm text-slate-600 dark:text-slate-400">Client Satisfaction</div>
+        {/* What I Enjoy Building */}
+        <section className="space-y-4 py-8 border-y border-slate-200 dark:border-slate-800">
+          <h2 className="text-2xl font-bold">What I Enjoy Building</h2>
+          <div className="grid gap-6 sm:grid-cols-3">
+            <div>
+              <h3 className="font-semibold text-blue-600 dark:text-blue-400">Reliable data pipelines</h3>
+              <p className="mt-2 text-sm text-slate-600 dark:text-slate-400">
+                Clear, dependable workflows that are easier to understand and maintain.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-blue-600 dark:text-blue-400">Cloud automation</h3>
+              <p className="mt-2 text-sm text-slate-600 dark:text-slate-400">
+                Cloud-based processes that reduce repetitive work and scale with changing needs.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-blue-600 dark:text-blue-400">Useful data platforms</h3>
+              <p className="mt-2 text-sm text-slate-600 dark:text-slate-400">
+                Tools and foundations that help teams work with data more confidently.
+              </p>
+            </div>
           </div>
         </section>
 
